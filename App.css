@@ -1,0 +1,62 @@
+/* App.css */
+.app {
+  text-align: center;
+}
+
+.header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.logo {
+  height: 40px;
+  pointer-events: none;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.cart {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.cart h2 {
+  margin-top: 0;
+}
+
+.cart-item {
+  margin: 5px 0;
+}
+
+.input-container {
+  margin-top: 20px;
+}
+
+.input-container input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.input-container button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: #0056b3;
+}
+
